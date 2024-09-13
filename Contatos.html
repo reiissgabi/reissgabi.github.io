@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>TripTour - Seu Site de Viagens</title>
+    </head>
+    
+    <body>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #ffffff;
+            color: #fff;
+            text-align: center;
+           
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #080808;
+            font-weight: bold;
+        }
+        
+        section {
+            padding: 20px;
+        }
+        
+       
+        
+        @media only screen and (max-width: 600px) {
+            nav {
+                text-align: center;
+            }
+        
+            nav ul {
+                display: block;
+                text-align: center;
+            }
+        
+            nav li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+        </style>
+     <header>
+       <br><br>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Destinos.html">Destinos</a></li>
+                    <li><a href="Contatos.html">Contato</a></li>
+                </ul>
+            </nav>
+            <br>
+            <hr size="3" color="black" width="30%">
+            <img src="imagens/capa nova.png" alt="Capa do site com nome e logo" width="100%" height="3%">
+            <br>
+        </header>
+    
+        <section>
+            
+            <br><br><center><h1>Contatos</h1>
+            <p>Entre em contato conosco!</p></center>
+            <!-- Conteúdo da página principal -->
+            </section>
+    <br>
+    <center><form>
+        <div>
+        <input name="nome" type="text" placeholder="Nome Completo">
+        </div>
+        <br><br>
+        <div>
+        <input name="destino" list="destinos" placeholder="Destino">
+        <datalist id="destinos">
+            <option value="Sintra">
+                <option value="Lisboa">
+                <option value="Porto"></option>
+                <option value="Albufeira"></option>
+                <option value="Braga"></option>
+                <option value="Guimarães"></option>
+                </div>
+                <br><br>
+        <div>
+            <input name="tour" list="tour" placeholder="Tour">
+        <datalist id="tour">
+            <option value="Privado">
+                <option value="Grupo">
+    </div>
+   <br><br>
+    <div class="field">
+        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+    </div>
+    <br><br>
+    <div>
+
+    <input type="submit" name="acao" value="Enviar">
+    </div>
+</form>
+            <br><br>
+        <footer>
+        <img src="imagens/rodape novo.png" width="100%" height="1%">
+        </footer>
+        
+    </body>
+    
+    </html>
